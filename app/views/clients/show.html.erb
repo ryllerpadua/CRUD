@@ -1,0 +1,8 @@
+<%= link_to 'Return to clients', clients_path(), class: "btn-return mt-4 mb-3" %>
+  <div class="card-product">
+    <div>
+      <h2 class="mt-3"> ClientName:<%= @client.clientname.capitalize %></h2>
+      <p>CPF:<%= @client.cpf %></p>
+      <h3>Email:<%= @client.email%></h3>
+    </div>
+  </div>
