@@ -1,0 +1,8 @@
+<div class="container mb-5  ">
+  <%= simple_form_for product do |f| %>
+    <%= f.input :productname %>
+    <%= f.input :price %>
+    <%= f.input :barcode %>
+    <%= f.submit "Submit", class: "btn-order mt-2 mb-3 w-100" %>
+  <% end %>
+</div>

@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h1> Products </h1>
+  <div class="row">
+    <% @products.each do |product| %>
+      <div class="col-4">
+        <div class="food-card w-100">
+          <%= link_to client.productname.capitalize, product_path(product)%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
